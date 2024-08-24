@@ -22,5 +22,3 @@ function isEven (){
 
 // RANDOM NUMBER
 //Funzione per creare un random da 1 a 100 incluso
-
-functi

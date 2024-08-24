@@ -21,17 +21,22 @@
     <script defer src="js/script.js"></script>
 </head>
 <body>
-    <form class="row g-3">
-        <h1>Palindroma</h1>
-        <div class="col-auto">
-          <label for="inputPassword2" class="visually-hidden"></label>
-          <input type="text" class="form-control" id="inputText" placeholder="">
-        </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-3">Conferma</button>
-        </div>
-      </form>
-
+    <section class="container">
+        <h1 class="mt-3">Palindroma</h1>
+        <form id="palindroma-form" class="row g-3">
+            <div class="col-auto">
+            <label for="inputText" class="visually-hidden"></label>
+            <input  type="text" minlength="4" required class="form-control" id="inputText" placeholder="">
+            </div>
+            <div class="col-auto">
+            <button type="submit" class="btn btn-primary mb-3">Conferma</button>
+            </div>
+        </form>
+    </section>
+    <!-- risultato -->
+     <section>
+        <div id="result"></div>
+     </section>
     
 </body>
 </html>
