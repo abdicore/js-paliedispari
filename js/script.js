@@ -16,6 +16,13 @@ const form = document.getElementById('palindroma-form')
 const imputField = document.getElementById('inputText')
 const resultElement =  document.getElementById('result')
 
+form.addEventListener('submit' function(event) {
+    event.preventDefault()
 
+    //raccolta dati
+    const word = imputField.value.trim()
+
+    //validazione
+})
 
 
